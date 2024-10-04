@@ -9,17 +9,17 @@
           <title>Home</title>
 
           <style>
-              * { box-sizing: border-box; } body {margin: 0;}
+              * { box-sizing: border-box; } body {margin: 0;}*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}
           </style>
 
+          
+          <!-- Google tag (gtag.js) -->
+          <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2M4YPF9KP4"></script>
           <script>
-            // Google Analytics tracking script
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-            ga('create', 'G-2M4YPF9KP4', 'auto');
-            ga('send', 'pageview');
+            gtag('config', 'G-2M4YPF9KP4');
           </script>
         </head><body><div class="text-gray-700 items-center text-center w-full my-10"> Home Page<div></div></div></body></html>
